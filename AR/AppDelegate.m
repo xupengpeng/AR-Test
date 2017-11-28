@@ -17,10 +17,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    NSLog(@"成功了吗");
-    NSLog(@"成功了吗");
-    NSLog(@"成功了吗");
-    NSLog(@"cccccvvvvv");
+    NSLog(@"宝宝心里苦,  宝宝有苦说不出");
     return YES;
 }
 
