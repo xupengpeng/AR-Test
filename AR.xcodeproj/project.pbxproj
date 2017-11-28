@@ -16,6 +16,8 @@
 		5934589D1FBBEB1600D98F2E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5934589C1FBBEB1600D98F2E /* main.m */; };
 		593458A71FBBEB1600D98F2E /* ARTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 593458A61FBBEB1600D98F2E /* ARTests.m */; };
 		593458B21FBBEB1600D98F2E /* ARUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 593458B11FBBEB1600D98F2E /* ARUITests.m */; };
+		593458C11FBC1BAC00D98F2E /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 593458C01FBC1BAC00D98F2E /* ViewController2.m */; };
+		593458C41FBD2A9F00D98F2E /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 593458C21FBD2A9F00D98F2E /* 2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		593458AD1FBBEB1600D98F2E /* ARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		593458B11FBBEB1600D98F2E /* ARUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARUITests.m; sourceTree = "<group>"; };
 		593458B31FBBEB1600D98F2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		593458BF1FBC1BAC00D98F2E /* ViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		593458C01FBC1BAC00D98F2E /* ViewController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		593458C21FBD2A9F00D98F2E /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +118,9 @@
 				593458981FBBEB1600D98F2E /* LaunchScreen.storyboard */,
 				5934589B1FBBEB1600D98F2E /* Info.plist */,
 				5934589C1FBBEB1600D98F2E /* main.m */,
+				593458C21FBD2A9F00D98F2E /* 2.jpg */,
+				593458BF1FBC1BAC00D98F2E /* ViewController2.h */,
+				593458C01FBC1BAC00D98F2E /* ViewController2.m */,
 			);
 			path = AR;
 			sourceTree = "<group>";
@@ -243,6 +251,7 @@
 			files = (
 				5934588F1FBBEB1600D98F2E /* art.scnassets in Resources */,
 				5934589A1FBBEB1600D98F2E /* LaunchScreen.storyboard in Resources */,
+				593458C41FBD2A9F00D98F2E /* 2.jpg in Resources */,
 				593458971FBBEB1600D98F2E /* Assets.xcassets in Resources */,
 				593458951FBBEB1600D98F2E /* Main.storyboard in Resources */,
 			);
@@ -270,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				593458921FBBEB1600D98F2E /* ViewController.m in Sources */,
+				593458C11FBC1BAC00D98F2E /* ViewController2.m in Sources */,
 				5934589D1FBBEB1600D98F2E /* main.m in Sources */,
 				5934588D1FBBEB1600D98F2E /* AppDelegate.m in Sources */,
 			);
@@ -435,11 +445,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BN987GDJUY;
 				INFOPLIST_FILE = AR/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.thirdnet.AR;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thirdnet.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -448,11 +460,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BN987GDJUY;
 				INFOPLIST_FILE = AR/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.thirdnet.AR;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thirdnet.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
